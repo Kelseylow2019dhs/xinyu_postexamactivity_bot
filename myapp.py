@@ -17,13 +17,18 @@ while True:
       counter += 1
     if each_word == "bored":
       feelings_list.append("bored")
-      encouragement_list.append("Find something meaningful to do")
+      encouragement_list.append("start on a new drama")
       counter += 1
     if each_word == "tiring":
       feelings_list.append("tiring")
       encouragement_list.append("Get some rest!")
       counter += 1
-
+    if each_word == "depressed":
+      feelings_list.append("depressed")
+      encouragement_list.append("keep calm and stay happy!")
+      counter += 1
+      
+      
   if counter == 0:
     
       output = "Sorry I don't really understand. Please use different words?"
